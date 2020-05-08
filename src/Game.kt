@@ -90,4 +90,8 @@ class Location(private val width: Int = 4, private val height: Int = 4){
         map[3][2] = "Now that you're in trouble, you begin to regret this day. You think of all the memorable moments you'll be having, if at home.[ n / s / w ]"
         map[3][3] = "You have almost reached the shop. It also seem like the moving vehicle is fast approaching your direction. GBAM!!! you are spotted and mistaken as the owner of the sho.[ s / w ] "
     }
+
+}
+enum class Directions{
+    NORTH, SOUTH, EAST, WEST, START, END
 }
